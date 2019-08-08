@@ -43,4 +43,4 @@ def initialize():
                                                                                               now.hour, now.minute, now.second) + '.txt'
     f_out = open(output_file, 'w')
 
-    return (f_out)
+    return (f_out, tf_data)
